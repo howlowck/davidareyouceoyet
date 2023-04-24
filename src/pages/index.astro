@@ -1,0 +1,23 @@
+---
+import MySiteLayout from "../layouts/HomePageLayout.astro";
+---
+
+<style>
+  .gradient {
+    font-size: 5rem;
+    background: linear-gradient(to right, #9225eb, #334efc);
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* Set the color of the text
+                to transparent  */
+    color: transparent;
+  }
+</style>
+<MySiteLayout>
+  <div class="text-center">
+    <h2 class="font-bold gradient my-10">David, are you CEO yet?</h2>
+    <p class="text-5xl">Not yet. 👀</p>
+  </div>
+</MySiteLayout>
